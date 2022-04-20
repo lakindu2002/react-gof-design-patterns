@@ -12,7 +12,7 @@ export const UserCreateModal = (props: any) => {
     return <></>;
 };
 
-export const NoFacade: FC = () => {
+export const Facade: FC = () => {
     const userFacade = useFacadeUserAPI();
     const { createUser, deleteUser, getUsers, users } = userFacade;
 
